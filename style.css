@@ -1,72 +1,66 @@
-.fcontainer {
-  display: flex;
-  background-color: #ffcd9e;
-  padding: 50px;
-  justify-content: center;
-  height: 350px;
-  width: 800px;
-  margin-left: 200px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.column {
-  display: flex;
-  flex-direction: column;
+#heading{
+ font-size: 25px;
+ margin-bottom: 10px;
 }
-#box {
-  display: flex;
+#Show_me_how_it_looks{
+  margin-top: 10px;
+  color: cadetblue;
 }
-#email {
-  height: 30px;
+button{
+  width: 172px;
+  height: 32px;
+  margin-left: 1px;
   border-radius: 5px;
 }
-::placeholder {
-  padding-left: 10px;
-}
-#button {
-  margin-left: 10px;
-  background-color: black;
-  color: white;
-  border: 1px solid red;
+form input{
+  height: 32px;
   border-radius: 5px;
 }
-#image {
-  height: 350px;
-  width: 350px;
+form{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+::placeholder{
+  text-align: center;
+}
+img{
+  width: 300px; 
   mix-blend-mode: multiply;
 }
-.footer {
-  display: flex;
-  background-color: black;
-  color: white;
-  justify-content: space-around;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-size: 16px;
-  height: 130px;
-  width: 900px;
-  margin-left: 200px;
+.header
+{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #ffcd9e;
+ justify-content: center;
+ align-items: center;
 }
-.foot {
+ul li img{
+  height: 30px;
+  width: 30px;
+}
+ul{
   list-style-type: none;
 }
-#f1 {
-  padding-left: 0px;
-  padding-right: 200px;
-}
-#f2 {
-  text-align: right;
-  padding-right: 50px;
-}
-#para1 {
-  font-size: 30px;
-}
-#para2 {
-  font-size: 20px;
-  color: #484848;
-}
-#para3 {
-  font-size: 20px;
-}
-#para4 {
-  font-size: 20px;
+.footer{
+  background-color: rgba(0, 0, 0, 0.87);
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+.dweep_io{
+  text-align: right;
 }
